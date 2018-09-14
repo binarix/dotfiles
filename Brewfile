@@ -1,8 +1,10 @@
 cask_args appdir: '~/Applications'
 
-tap 'homebrew/cask-versions'
-tap 'Azure/draft'
-tap 'jenkins-x/jx'
+tap "azure/draft"
+tap "homebrew/bundle"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "jenkins-x/jx"
 
 brew 'mas'
 
@@ -51,6 +53,7 @@ brew 'ansible'
 brew 'awscli'
 brew 'azure-cli'
 brew 'draft'
+cask 'google-cloud-sdk'
 brew 'jx'
 cask 'kitematic'
 brew 'kops'
