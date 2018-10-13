@@ -15,6 +15,7 @@ alias fgrep='fgrep --color=auto'
 alias ls='ls -hF'
 alias kc='kubectl'
 alias pytest='PYTHONPATH=$(pwd) pytest'
+alias brewery='cd ~/Workspace/dotfiles && brew update && brew bundle install --force && brew bundle cleanup --force && brew upgrade && brew prune && brew cleanup'
 
 export PATH=$PATH:/usr/local/sbin
 export PATH=/usr/local/bin:$PATH

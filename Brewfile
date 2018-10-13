@@ -1,4 +1,4 @@
-cask_args appdir: '~/Applications'
+cask_args appdir: '/Applications'
 
 tap "azure/draft"
 tap "homebrew/bundle"
@@ -103,4 +103,3 @@ brew 'watch'
 brew 'watchman'
 brew 'wget'
 brew 'yarn'
-
