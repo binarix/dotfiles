@@ -22,6 +22,7 @@ brew 'erlang'
 brew 'elixir'
 brew 'mono-libgdiplus'
 cask 'dotnet-sdk'
+brew 'dep'
 
 # important apps
 cask 'caffeine'
@@ -46,10 +47,13 @@ mas 'Xcode', id: 497799835
 
 # dbs and infra
 cask 'postgres', { appdir: '/Applications' }
+mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'SQLPro for Postgres', id: 976140091
 brew 'postgres'
 cask 'dbvisualizer'
 cask 'mongodb-compass-community'
+brew 'circleci'
+brew 'cockroach'
 brew 'sqlite'
 cask 'docker'
 brew 'ansible'
@@ -92,19 +96,23 @@ brew 'cntlm'
 brew 'ctop'
 brew 'curl'
 brew 'dos2unix'
+brew 'flow'
 brew 'gcc'
 brew 'git'
 brew 'jq'
 brew 'magic-wormhole'
+cask 'microsoft-teams'
 brew 'pngcrush'
 cask 'postman'
 brew 'protobuf'
+cask 'teamviewer'
 brew 'telnet'
 brew 'tmux'
 brew 'unrar'
 brew 'watch'
 brew 'watchman'
 brew 'wget'
+cask 'wireshark'
 brew 'yarn'
 brew 'zlib'
 
