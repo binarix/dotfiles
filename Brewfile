@@ -9,15 +9,18 @@ tap "jenkins-x/jx"
 brew 'mas'
 
 # compilers/env/sdk managers
+brew 'nuget'
 brew 'pyenv'
 brew 'pyenv-virtualenv'
 brew 'pyenv-virtualenvwrapper'
 brew 'nvm'
 brew 'rbenv'
 brew 'go'
+brew 'ghc'
 brew 'cocoapods'
 brew 'erlang'
 brew 'elixir'
+brew 'mono-libgdiplus'
 cask 'dotnet-sdk'
 
 # important apps
@@ -74,7 +77,7 @@ cask 'cyberduck'
 cask 'owasp-zap'
 cask 'react-native-debugger'
 cask 'slack'
-cask 'wireshark'
+cask 'steam'
 cask 'zoomus'
 mas 'Keynote', id: 409183694
 mas 'Kindle', id: 405399194
@@ -103,3 +106,5 @@ brew 'watch'
 brew 'watchman'
 brew 'wget'
 brew 'yarn'
+brew 'zlib'
+
