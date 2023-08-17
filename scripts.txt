@@ -1,4 +1,4 @@
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew bundle install --force
 curl -s "https://get.sdkman.io" | bash
 source "/Users/johntan/.sdkman/bin/sdkman-init.sh"
@@ -11,11 +11,6 @@ sdk install sbt
 sdk install scala
 sdk install spark
 sdk install springboot
-mkdir ~/.nvm
-nvm install node
-nvm install --lts
-nvm alias default lts/*
-nvm install 8.10
 pyenv install 3.7.0
 pyenv install 2.7.15
 pyenv global 3.7.0

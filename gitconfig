@@ -2,7 +2,7 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = John Tan
-	email = johntan@thoughtworks.com
+	email = john@binarix.net
 [core]
 	autocrlf = input
 	ignorecase = true

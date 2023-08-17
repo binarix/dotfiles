@@ -3,7 +3,6 @@ cask_args appdir: '/Applications'
 tap "azure/draft"
 tap "homebrew/bundle"
 tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "jenkins-x/jx"
 tap "gjbae1212/gossm"
 tap 'isen-ng/dotnet-sdk-versions'
@@ -13,6 +12,7 @@ tap 'vectordotdev/brew'
 tap 'mike-engel/jwt-cli'
 tap 'aquasecurity/trivy'
 tap 'nats-io/nats-tools'
+tap 'mongodb/brew'
 
 brew 'mas'
 
@@ -32,20 +32,19 @@ brew 'elixir'
 brew 'mono-libgdiplus'
 cask 'dotnet-sdk'
 cask 'dotnet-sdk2-2-400'
-brew 'dep'
 brew 'rustup'
 
 # important apps
 cask 'caffeine'
 cask 'flycut'
-cask 'google-backup-and-sync'
+cask 'google-drive'
 cask 'google-chrome'
 #cask 'parallels'
 cask 'plistedit-pro'
 cask 'sublime-text'
 
 # password managers/security
-cask '1password'
+cask '1password7'
 cask 'dropbox'
 cask 'gpg-suite'
 cask 'keybase'
@@ -61,12 +60,11 @@ cask 'visual-studio-code'
 mas 'Xcode', id: 497799835
 
 # dbs and infra
-cask 'postgres', { appdir: '/Applications' }
 mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'SQLPro for Postgres', id: 976140091
 brew 'postgresql@14'
 cask 'dbvisualizer'
-cask 'mongodb-compass-community'
+brew 'mongodb-community'
 brew 'circleci'
 brew 'sqlite'
 brew 'dive'
@@ -88,7 +86,7 @@ brew 'kind'
 brew 'kops'
 brew 'kubernetes-cli'
 brew 'helm'
-cask 'minikube'
+brew 'minikube'
 brew 'nats'
 brew 'nats-server'
 cask 'nosql-workbench'
@@ -130,7 +128,6 @@ brew 'certstrap'
 brew 'cloc'
 brew 'cntlm'
 brew 'ctop'
-# brew 'curl'
 brew 'dbmate'
 brew 'dos2unix'
 brew 'flow'
@@ -143,6 +140,7 @@ brew 'jwt-cli'
 brew 'inetutils'
 cask 'insomnia'
 brew 'ipcalc'
+cask 'licecap'
 brew 'lnav'
 brew 'magic-wormhole'
 cask 'microsoft-teams'
@@ -158,7 +156,6 @@ brew 'swagger-codegen'
 cask 'teamviewer'
 brew 'tldr'
 brew 'tmux'
-brew 'unrar'
 brew 'upx'
 brew 'vite'
 brew 'vector'
